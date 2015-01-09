@@ -1,0 +1,138 @@
+
+@media screen and (max-width: 768px)
+{
+    .calculator-panel
+    {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box!important;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .calculator-panel
+    {
+        width: 60%;
+        height: 70%;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.calculator
+{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #DBDBDB;
+    background-color: #F9F9F9;
+    box-sizing: border-box!important;
+}
+
+.calculator-display
+{
+    border: 1px solid #D9D9D9;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+    .calculator-display .number
+    {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .calculator-display .history
+    {
+        width: 100%;
+    }
+
+        .calculator-display .history div
+        {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: bold;
+            text-align: right;
+        }
+
+.calculator-keyboard
+{
+    width: 100%;
+    height: 50%;
+}
+
+    .calculator-keyboard .ckb-row
+    {
+        width: 100%;
+        height: 20%;
+        display: table;
+    }
+
+        .calculator-keyboard .ckb-row .btn
+        {
+            display: table-cell;
+            width: 20%;
+            height: 100%;
+            padding: 2px;
+        }
+
+            .calculator-keyboard .ckb-row .btn .btn-light
+            {
+                border: 1px solid #DEDEDE;
+                background-color: #F1F1F1;
+                color: black;
+                font-size: 18px;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                position: relative;
+            }
+
+            .calculator-keyboard .ckb-row .btn .btn-gray
+            {
+                border: 1px solid #C6C6C6;
+                background-color: #D0D0D0;
+                color: black;
+                font-weight: bold;
+                font-size: 18px;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                position: relative;
+            }
+
+            .calculator-keyboard .ckb-row .btn .btn-blue
+            {
+                border: 1px solid #3079ED;
+                background-color: #498AF3;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                position: relative;
+            }
+
+            .calculator-keyboard .ckb-row .btn .btn-text
+            {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
